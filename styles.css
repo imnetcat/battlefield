@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+}
+#map-zoom {
+}
+#map {
+  width: auto;
+  height: auto;
+}
+#scale-widget {
+  left: 40%;
+  bottom: 0;
+  position: fixed;
+}
+#scale {
+  position: relative;
+  width: 75px;
+  display: inline-block;
+  height: 4px;
+  border: 2px solid gray;
+  border-top: none;
+}
+#meters {
+  position: absolute;
+  top: 0;
+  left: -50px;
+}
+#turn {
+  position: fixed;
+  width: 100px;
+  height: 50px;
+  background-color: black;
+  color: orange;
+  text-align: center;
+  bottom: 0;
+  left: 49%;
+}
+.player {
+  background-color: orange;
+}
+.enemy {
+  background-color: black;
+}
+.infantryLight {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  left: 900px;
+  top: 200px;
+  margin-left: -7.5px;
+  margin-top: -7.5px;
+}
+.selected {
+}
+.hp {
+  position: absolute;
+  border: 1px solid;
+  width: 50px;
+  height: 10px;
+  margin-top: -15px;
+  margin-left: -17px;
+  z-index: 2;
+}
+.hp div {
+  height: 100%;
+  width: 100%;
+  background-color: red;
+}
+.area {
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  margin-left: -18px;
+  margin-top: -18px;
+  border: 1px solid;
+  border-radius: 50%;
+  display: inline-block;
+  z-index: 1;
+}
