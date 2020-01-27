@@ -1,2 +1,1 @@
-"The battle begin..." 
-"# battlefield" 
+The battle begin...
